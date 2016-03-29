@@ -1,3 +1,6 @@
 [submodule "Module/AndroidUniversalImageLoaderLibrary"]
 	path = Module/AndroidUniversalImageLoaderLibrary
 	url = https://github.com/imknown/AndroidUniversalImageLoaderLibrary.git
+[submodule "Module/xUtils2LibraryForAndroidStudio"]
+	path = Module/xUtils2LibraryForAndroidStudio
+	url = https://github.com/imknown/xUtils2LibraryForAndroidStudio.git
