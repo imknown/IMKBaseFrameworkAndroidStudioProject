@@ -1,0 +1,3 @@
+[submodule "Module/AndroidUniversalImageLoaderLibrary"]
+	path = Module/AndroidUniversalImageLoaderLibrary
+	url = https://github.com/imknown/AndroidUniversalImageLoaderLibrary.git
