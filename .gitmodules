@@ -4,3 +4,6 @@
 [submodule "Module/xUtils2LibraryForAndroidStudio"]
 	path = Module/xUtils2LibraryForAndroidStudio
 	url = https://github.com/imknown/xUtils2LibraryForAndroidStudio.git
+[submodule "Module/IMKBaseFrameworkLibrary"]
+	path = Module/IMKBaseFrameworkLibrary
+	url = https://github.com/imknown/IMKBaseFrameworkLibrary.git
