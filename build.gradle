@@ -1,0 +1,41 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.0-alpha4'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+
+    ext {
+        support_version = '23.2.1'
+        multidex_version = '1.0.1'
+
+        buildToolsVersion = "23.0.2"
+
+        minSdkVersionForLauncher = 19
+        minSdkVersion = 15
+
+        // 针对那些没有适配 android 6 动态权限的
+        targetSdkVersionForNoRuntimePromission = 22
+        targetSdkVersion = 23
+
+        compileSdkVersion = 23
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url "http://maven.bughd.com/public" }
+
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

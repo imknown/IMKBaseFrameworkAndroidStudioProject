@@ -1,0 +1,4 @@
+include ':Module:IMKBaseFrameworkLibrary'
+include ':Module:IMKBaseFrameworkDemo'
+include ':Module:AndroidUniversalImageLoaderLibrary'
+include ':Module:xUtils2LibraryForAndroidStudio'
