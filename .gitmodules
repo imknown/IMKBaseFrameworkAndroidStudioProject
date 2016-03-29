@@ -7,3 +7,6 @@
 [submodule "Module/IMKBaseFrameworkLibrary"]
 	path = Module/IMKBaseFrameworkLibrary
 	url = https://github.com/imknown/IMKBaseFrameworkLibrary.git
+[submodule "Module/IMKBaseFrameworkDemo"]
+	path = Module/IMKBaseFrameworkDemo
+	url = https://github.com/imknown/IMKBaseFrameworkDemo.git
