@@ -1,4 +1,11 @@
-include ':Module:IMKBaseFrameworkLibrary'
-include ':Module:IMKBaseFrameworkDemo'
+// https://github.com/imknown/AndroidUniversalImageLoaderLibrary.git
 include ':Module:AndroidUniversalImageLoaderLibrary'
+
+// https://github.com/imknown/xUtils2LibraryForAndroidStudio.git
 include ':Module:xUtils2LibraryForAndroidStudio'
+
+// https://github.com/imknown/IMKBaseFrameworkLibrary.git
+include ':Module:IMKBaseFrameworkLibrary'
+
+// https://github.com/imknown/IMKBaseFrameworkDemo.git
+include ':Module:IMKBaseFrameworkDemo'
