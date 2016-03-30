@@ -17,7 +17,6 @@ buildscript {
 
         buildToolsVersion = "23.0.2"
 
-        minSdkVersionForLauncher = 19
         minSdkVersion = 15
 
         // 针对那些没有适配 android 6 动态权限的
