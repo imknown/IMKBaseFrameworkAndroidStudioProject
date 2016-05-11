@@ -28,6 +28,9 @@ buildscript {
 }
 
 allprojects {
+    // buildDir = "D:/tmp/${rootProject.name}/${project.name}"
+    buildDir = System.getenv()['TMP'] + "${rootProject.name}/${project.name}"
+
     repositories {
         maven { url "http://maven.bughd.com/public" }
 
